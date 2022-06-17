@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Cats.scss'
+import './CatsWrapper.scss'
 
 
-const Cats = () => {
+const CatsWrapper = () => {
     const [cats, setCats] = useState([]);
   useEffect(() => {
     // connect data
@@ -24,4 +24,4 @@ const Cats = () => {
   )
 }
 
-export default Cats
+export default CatsWrapper
