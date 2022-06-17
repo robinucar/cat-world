@@ -14,7 +14,7 @@ const Cats = ({ cats }) => {
               <img
                 src={cat?.image?.url}
                 alt={cat.name}
-                style={{ width: "400px", height: "400px" }}
+                
               />
               <div className="app__card-footer">
                 <h2>Breed: {cat.name}</h2>
