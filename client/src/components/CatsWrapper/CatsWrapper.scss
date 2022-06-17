@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: rgba(74, 70, 70, 0.671);
+  display: flex;
+  justify-content: flex-end;
+}
+.search {
+  outline: none;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  margin: 20px;
+  border: 1px solid black;
+
+  position: fixed;
+  z-index: 1000;
+}

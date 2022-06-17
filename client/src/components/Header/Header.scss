@@ -1,11 +1,12 @@
 .head {
-    background-color: rgba(138, 134, 134, 0.391);
-    position: fixed;
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 10
+ height: 100px;
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  color: #000;
 }

@@ -1,11 +1,15 @@
 import React from 'react'
+
+
 import './Header.scss'
 const Header = () => {
+  
   return (
-    <div>
-        <h1 className='head'>
+    <div className='head'>
+        <h1>
             Cats World
         </h1>
+       
     </div>
   )
 }
