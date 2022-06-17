@@ -18,7 +18,7 @@ app.get("/v1/breeds", async (req, res) => {
       .get('https://api.thecatapi.com/v1/breeds')
       .then((response) => {
         res.send(response.data);
-        console.log(response.data.length)
+        console.log(response.data)
       });
   } catch (err) {
     console.log(err);
