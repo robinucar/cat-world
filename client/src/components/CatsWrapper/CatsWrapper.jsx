@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './CatsWrapper.scss'
+import Cats from './Cats/Cats';
 
 
 const CatsWrapper = () => {
@@ -20,7 +21,9 @@ const CatsWrapper = () => {
     fetchData();
   }, []);
   return (
-    <div></div>
+    <div>
+      <Cats cats={cats}/>
+    </div>
   )
 }
 
