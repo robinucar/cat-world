@@ -1,0 +1,65 @@
+.cat__cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: rgba(74, 70, 70, 0.671);
+
+  .cat__card {
+    background-color: transparent;
+    width: 400px;
+    height: 500px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-top: 120px;
+    .app__card-footer {
+      background-color: aliceblue;
+      height: 100px;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      margin-top: -3px;
+    }
+    .cat__card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+
+      .cat__card-front,
+      .cat__card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+
+      .cat__card-back {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(17, 17, 75);
+        color: white;
+        transform: rotateY(180deg);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        .app__card-star {
+          color: yellow;
+        }
+        a {
+          text-decoration: none;
+          color: wheat;
+        }
+      }
+    }
+  }
+  .cat__card:hover .cat__card-inner {
+    transform: rotateY(180deg);
+  }
+}

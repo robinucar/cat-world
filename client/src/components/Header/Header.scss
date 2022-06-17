@@ -1,6 +1,11 @@
 .head {
     background-color: rgba(138, 134, 134, 0.391);
     position: fixed;
-    padding: 10px;
+    padding: 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10
 }

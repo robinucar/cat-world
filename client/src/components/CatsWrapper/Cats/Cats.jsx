@@ -1,4 +1,5 @@
 import React from "react";
+import './Cats.scss'
 import {AiFillStar} from 'react-icons/ai'
 
 const Cats = ({ cats }) => {
@@ -6,6 +7,7 @@ const Cats = ({ cats }) => {
   return (
     <div className="cat__cards">
       {cats.map((cat) => (
+        
         <div className="cat__card">
           <div className="cat__card-inner">
             <div className="cat__card-front">
