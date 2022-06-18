@@ -59,6 +59,13 @@ I can use some css framework such as Bootstrap, Material UI
 ### Server Side 
 I can refactor server js file. Rout logic can go route file, controller logic (req data usage, response wrap, and send) can stay in controller file , and an ApiService class can do api call to thecats API.
 
+I can add user authentication. 
+
+I can also make post, put, delete requests to thecats API. This requests give me chance to upload cat images and details, and also will be able to edit  uploaded data.
+
+
+
 ### Client Side
 I can also filter data by character, dog frient, child friend etc,
 I can create pagination. 
+I can create an ApiKey and will be able to upload cat image and cat details. Also with Api I can wote cat features. 
