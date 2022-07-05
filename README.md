@@ -51,21 +51,21 @@ I woluld like to be able to see more information about breed.
 ## Improvements
 
 ### Testing
-I can write unit tests for app using JEST and React Testing Library
+I can write unit tests for the app using JEST and React testing library.
 
 ### Styling 
-I can use some css framework such as Bootstrap, Material UI
+I can use some css framework such as Bootstrap, Material UI to improve client side.
 
 ### Server Side 
-I can refactor server js file. Rout logic can go route file, controller logic (req data usage, response wrap, and send) can stay in controller file , and an ApiService class can do api call to thecats API.
+I can refactor server js file. Route logic can go route file, controller logic (reqeuest, response wrap and send) can stay in controller file , and an ApiService class that can do API calls to the thecats API.
 
 I can add user authentication. 
 
-I can also make post, put, delete requests to thecats API. This requests give me chance to upload cat images and details, and also will be able to edit  uploaded data.
+I can also make POST, PUT, DELETE requests to the thecats API. These requests give me the chance to upload cat images and details, and also will be able to edit and upload data.
 
 
 
 ### Client Side
-I can also filter data by character, dog frient, child friend etc,
-I can create pagination. 
-I can create an ApiKey and will be able to upload cat image and cat details. Also with Api I can wote cat features. 
+I can also filter data by character, dog friendliness, child friendliness etc,
+I can implement pagination. 
+ 
